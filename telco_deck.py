@@ -30,7 +30,7 @@ segments = ['starting_family', 'nuclear_family', 'extended_family', 'singles', '
 ##########################                    Data preparation                      ##############################
 ##################################################################################################################
 #Reading segmented household data
-hh_df = spark.read.parquet('s3a://ada-dev/xindee/202108/telco_households/segments/new/*.parquet').cache()
+hh_df = spark.read.parquet('s3a://ada-dev/azeef/202108/telco_households/segments/new/*.parquet').cache()
 
 ########################################
 
